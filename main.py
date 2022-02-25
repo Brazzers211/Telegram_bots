@@ -1,4 +1,3 @@
-import logging
 import os
 from datetime import datetime, timedelta
 from aiogram import Bot, Dispatcher, executor, types
@@ -48,9 +47,6 @@ sub_inline_milfs_markup.insert(ssilka_oplata_milfs)
 
 TOKEN_KASSA = "381764678:TEST:33651"
 API_TOKEN = "5220046644:AAEHt4ki_jK3mH8S0ds8-2UNxfSqJ5xZCtw"
-# Configure logging 
-logging.basicConfig(level=logging.INFO)
-# Initialize bot and dispatcher
 bot = Bot(token=API_TOKEN) 
 dp = Dispatcher(bot)
 
