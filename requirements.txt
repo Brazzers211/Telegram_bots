@@ -14,3 +14,4 @@ CherryPy == 18.6.1
 choicelib == 0.1.5    
 colorama == 0.4.4     
 DateTime == 4.4
+six==1.14.0
