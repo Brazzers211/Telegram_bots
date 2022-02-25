@@ -152,7 +152,8 @@ async def process_pre_checkout_query(pre_checkout_query: types.PreCheckoutQuery)
 async def process_pay(message: types.Message):
     if message.successful_payment.invoice_payload == "month_sub":
         chat_id = -1001554743391
-        expire_date = datetime.now() + timedelta(days=1)
+        expire_date = datetime.now()
+        timedelta(days=1)
         link = await bot.create_chat_invite_link(chat_id, expire_date.timestamp, 1)
         await message.answer(f"Держи ссылку\n{link.invite_link}")
 
