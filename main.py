@@ -2,7 +2,6 @@ import os
 from datetime import datetime, timedelta
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton, ContentType
-from cnop import greet_kb
 
 button_hi = KeyboardButton('Сливы')
 button_hi2 = KeyboardButton('Архивы') 
